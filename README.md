@@ -7,3 +7,5 @@ docker build -t celery .
 ```
 docker run -d celery /start.sh
 ```
+
+其中`jackals.tar.gz`为[jackals](https://github.com/djskl/jackals)代码的压缩宝包文件，此处是将其直接放入了docker镜像，当然也可以通过代码目录挂载等方式，避免这样作做。
